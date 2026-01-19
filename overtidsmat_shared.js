@@ -1,4 +1,8 @@
 
+const SUPABASE_URL = 'https://zmrafcqhdayqovdoaxko.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_MYhmPQYWMWbAEi8awmBUzw_0CL33JJ0';
+const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
 // overtidsmat_shared.js (clean base with pricing + cutoff + robust normalization)
 (function(global){
   const CONFIG_KEY = 'overtidsmat_config_v1';
